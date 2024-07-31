@@ -1070,7 +1070,7 @@ Source: https://github.com/sherlock-audit/2024-06-mellow-judging/issues/266
 The protocol has acknowledged this issue.
 
 ## Found by 
-X12, eeyore, giraffe, hals, hash, infect3d, scammed
+eeyore
 ## Summary
 
 The `priceX96()` function always enforces a cross-oracle price check, even when a direct price feed is provided by Chainlink.
